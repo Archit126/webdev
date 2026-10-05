@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: black;
+  background-color: white;
+}
+
+a {
+  color: #1e6f50;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #1e4d3b;
+  padding: 30px 20px;
+  box-sizing: border-box;
+}
+
+nav a {
+  display: block;
+  color: #d8eadf;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
+nav a:hover {
+  color: white;
+}
+
+main {
+  margin-left: 200px;
+  padding: 40px 50px;
+  max-width: 750px;
+}
+
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 44px;
+  margin: 40px 0 20px 0;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  border-left: 6px solid #1e4d3b;
+  padding-left: 12px;
+}
+
+.button {
+  background-color: #1e4d3b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #2f7a5c;
+}
+
+.skills {
+  column-count: 2;
+}
+
+.skills li {
+  margin: 6px;
+}
+
+form {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #999;
+  font-family: inherit;
+  font-size: 15px;
+}
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #999;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.contact-list li {
+  margin: 10px;
+}
+
+footer {
+  margin-left: 200px;
+  padding: 20px 50px;
+  background-color: #eee;
+  font-size: 14px;
+}
+
+@media (max-width: 700px) {
+  nav {display: flex;
+    position: fixed;
+    width: 100%;
+    gap: 20px;
+    height: auto;
+  }
+.skills {
+    column-count: 1;
+  }
+}
